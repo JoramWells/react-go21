@@ -1,20 +1,26 @@
 import './App.css';
-import Header from './components/Header';
-import Info from './components/Info';
-import Payment from './components/Payment';
-import Upload from './components/Upload';
+
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
+import {BrowserRouter as Router, Route} from 'react-router-dom'
+import Routers from './components/Routers';
+import Login from './components/Login';
+import Register from './components/Register';
+
 
 
 function App() {
   return (
 <>
+<Router>
 <Navigation />
-<Header />
-<Info />
-<Upload />
-<Payment />
+  <Route path="/" exact component={Routers} />
+  <Route path="/login"  component={Login} />
+  <Route path="/register"  component={Register} />
+
+
+</Router>
+
 <Footer />
 </>
   );

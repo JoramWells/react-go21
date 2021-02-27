@@ -8,16 +8,7 @@ export default function Footer() {
     <>
       <Container fluid  style={{backgroundColor:"hsl(0, 0%, 45%)", color:"white", padding:"25px"}} >
         <Row>
-          <Col> <h6>Address</h6> 
-          <ol>
-              <li>Phone</li>
-              <li>Email</li>
-          </ol>
-          <h6>Location</h6>
-          <ol>
-              <li>Nairobi</li>
-          </ol>
-          </Col>
+
           <Col> <h6>FAQ</h6><ol>
               <li>How to make payment</li>
               <li>How to submit assignment</li>
