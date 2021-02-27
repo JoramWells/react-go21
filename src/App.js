@@ -4,11 +4,13 @@ import Info from './components/Info';
 import Payment from './components/Payment';
 import Upload from './components/Upload';
 import Footer from './components/Footer';
+import Navigation from './components/Navigation';
 
 
 function App() {
   return (
 <>
+<Navigation />
 <Header />
 <Info />
 <Upload />

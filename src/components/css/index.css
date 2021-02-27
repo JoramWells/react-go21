@@ -1,6 +1,6 @@
 .section{
     background-color: hsl(210, 100%, 70%);
-    height: 400px;
+    height: 450px;
     text-align: center;
     padding: 100px;
     color: white;
@@ -10,18 +10,24 @@
     background-image: url('../img/tired.jpg');
     background-size: cover;
     background-position: center;
+    height: 500px;
+    padding: 100px;
+    color: white;
     background-repeat: no-repeat;
 }
 h1, h2{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .hanger{
     height: 200px;
     background-color: white;
-    margin-top: 100px;
+    margin-top: 200px;
     color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
 }
 
 .info{
