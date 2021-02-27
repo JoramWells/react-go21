@@ -1,0 +1,40 @@
+.section{
+    background-color: hsl(210, 100%, 70%);
+    height: 400px;
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+
+.back{
+    background-image: url('../img/tired.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1, h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.hanger{
+    height: 200px;
+    background-color: white;
+    margin-top: 100px;
+    color: black;
+}
+
+.info{
+    margin-top: 100px;
+}
+
+footer{
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    padding: 25px;
+}
+
+.fluid{
+    height: 200px;
+
+}
