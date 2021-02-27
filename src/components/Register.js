@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/esm/Col'
 import Container from 'react-bootstrap/Container'
 import {Link} from 'react-router-dom'
 
-export default function Login() {
+export default function Register() {
     return (
         <Container style={{padding:"100px"}}>
             <Col md={8} className="mr-auto ml-auto">
